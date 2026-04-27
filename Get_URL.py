@@ -5,10 +5,10 @@ import urllib3
 # Disable warnings for self-signed certificates (if applicable)
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-FMC_IP = "10.122.51.26"
-USERNAME = "luis_api"
-PASSWORD = "C1scoRocks!"
-ACCESS_POLICY_NAME = "Luis-Test-ACP"
+FMC_HOST = "x.x.x.x"
+USERNAME = "api"
+PASSWORD = "your_password"
+ACCESS_POLICY_NAME = "Test-ACP"
 
 # Base URLs for platform and config APIs
 BASE_URL_PLATFORM = f"https://{FMC_IP}/api/fmc_platform/v1"
