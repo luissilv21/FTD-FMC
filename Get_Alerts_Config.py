@@ -6,9 +6,9 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # FMC connection details
-FMC_HOST = "10.122.51.26"
-USERNAME = "luis_api"  # Replace with your FMC username
-PASSWORD = "C1scoRocks!"  # Replace with your FMC password
+FMC_HOST = "x.x.x.x"
+USERNAME = "api"
+PASSWORD = "your_password"
 
 # Use the provided domain UUID
 DOMAIN_UUID = "e276abec-e0f2-11e3-8169-6d9ed49b625f"
