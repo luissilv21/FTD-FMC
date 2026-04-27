@@ -4,9 +4,9 @@ import sys
 
 # Constants for prompt integrity
 CONSTANTS = {
-    "FMC_IP": "10.122.51.26",
-    "USERNAME": "luis_api",
-    "PASSWORD": "C1scoRocks!",
+    FMC_HOST = "x.x.x.x"
+    USERNAME = "api"
+    PASSWORD = "your_password",
 }
 API_VERSION = 'v1'
 BASE_URL = f'https://{CONSTANTS["FMC_IP"]}/api/fmc_config/{API_VERSION}/domain'
